@@ -14,7 +14,7 @@
    http://www.opensource.org/licenses.
 */
 
-#include <sys/asm.h>
+#include "asm.h"
 
 #if BYTE_ORDER != LITTLE_ENDIAN
 # error
