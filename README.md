@@ -6,3 +6,11 @@ This project builds 3 binaries:
    and then executes ebreak. The other harts are parked in an infinite loop.
    It's intended to be used from OpenOCD to quickly prepare a HiFive Unleashed
    board for code to be downloaded into its DDR memory.
+
+ubuntu 22.04 compile this project
+```
+sudo apt install gcc-riscv64-unknown-elf
+sudo apt install picolibc-riscv64-unknown-elf
+make
+```
+
